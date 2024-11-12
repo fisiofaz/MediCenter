@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -43,7 +44,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #727272;
-    font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 nav .active a, nav a:hover {
@@ -52,8 +53,101 @@ nav .active a, nav a:hover {
 }
 
 #banner {
+    display: flex;
+    justify-content: center;
     background-image: url('../images/img1.jpg');
     background-position: center;
     background-size: cover;
     height: 670px;
 }
+
+.colunn {
+    flex-direction: column;
+}
+
+.banner_headLine {
+    flex: 1;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_headLine h1 {
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 600;
+    text-shadow: 0 1px 0 #555555;
+    padding: 0;
+    margin: 0 0 30px 0;
+    max-width: 350px;
+}
+
+.banner_headLine h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 #555555;
+    margin: 0;
+    padding: 0;
+    max-width: 450px;
+}
+.banner_options {
+    height: 210px;
+    display: flex;
+}
+
+.banner1, .banner2, .banner3 {
+    flex: 1;
+    color: #ffffff;
+    padding: 0 20px;
+}
+
+.banner1 {
+    background: #39aae1;
+}
+
+.banner2 {
+    background: #0079c7;
+}
+
+.banner3 {
+    background: #2b4c99;
+}
+
+.banner1 h2, .banner2 h2, .banner3 h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner1 p, .banner2 p{
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.opening_hours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: .5px solid rgba(252, 252, 252, 0.1); 
+    padding: 0;
+    margin: 0;
+}
+
+.banner_options p {
+    font-size: 12px;
+}
+
