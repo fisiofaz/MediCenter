@@ -1,4 +1,4 @@
-# Lista de tarefas simples
+# MedilCenter 
 
 
 
@@ -7,7 +7,11 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/fisiofaz/Lista.de.Tarefas/blob/main/image/imagem%20do%20projeto 2.png"/>
+  <img src="https://github.com/fisiofaz/MediCenter/blob/main/assets/images/tablete%20720px.png"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/fisiofaz/MediCenter/blob/main/assets/images/celura320px.png"/>
 </p>
 
 ## Índice
@@ -21,20 +25,7 @@
 
 ## Sobre
 
-O objetivo deste desafio é criar uma Lista de Tarefas com os campos: 
-Campos:
-•	Identificador da tarefa (chave primária)
-•	Nome da tarefa
-•	Custo (R$)
-•	Data limite
-•	Ordem de apresentação (campo numérico, não repetido, que servirá para ordenar os registros na tela)
-
-A onde poderia Editar, Excluir e Reordenar as tarefas
-
-
-### Links
-
-[Live site](https://fisiofaz.github.io/Lista.de.Tarefas/)
+O objetivo deste reproduzir um templete de um site completo com flexbox: 
 
 ### Tecnologias
 
@@ -51,7 +42,7 @@ A onde poderia Editar, Excluir e Reordenar as tarefas
 - Como exibir e esconder elementos HTML de uma página usando JavaScript.
 - Como dar movimento a elementos com animações CSS.
 - Como receber float numbers dentro de um input (usando a propriedade step="0.1").
-- Como limpar inputs automaticamente depois de obter o resultado do IMC (adicionando um event listener ao botão X, que fecha o popup, e atualizando o value do input para string vazia).
+
 ## Desenvolvedora
 
 - Github - [Fábio André Zatta](https://github.com/fisiofaz)
