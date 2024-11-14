@@ -676,12 +676,18 @@ article .news_comments {
 }
 
 @media (max-width: 320px) {
+    
+    #banner {
+        height: 360px;
+    }
+
+
     .banner_headLine h2 {
         color: #555555;
     }
 
     #geral {
-        margin-top: 180px;
+        margin-top: 500px;
         padding-left: 50px;
     }
 
